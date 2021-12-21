@@ -1,6 +1,8 @@
 !/usr/bin/env python3
 
 import botocore
+import json
+import sys
 
 def get_creds(account):
     # Get what's needed to authenticate against a given IAM account
